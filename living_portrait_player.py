@@ -31,4 +31,5 @@ try:
 
 except KeyboardInterrupt:
     player.quit()
+    sleep(3)
     sys.exit()
